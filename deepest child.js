@@ -5,7 +5,7 @@ function deepestChild() {
   while (list[i] !== 1)
   {
     i++;
-    console.log(typeof list[i]);
+    console.log("List[i] in loop is: " + list[i]);
     list = document.getElementById(list[i]).querySelectorAll("div");
   }
   return list;
