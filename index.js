@@ -20,7 +20,7 @@ function deepestChild() {
   }
 
   console.log("List[i] after loop is: " + list[i]);
-  return list[i-1].innerHTML;
+  return list[i-1];
   //for (let i = 0; i < list.length; i++) {
     //  if
   //}
