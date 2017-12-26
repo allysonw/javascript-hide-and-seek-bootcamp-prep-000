@@ -8,14 +8,8 @@ function nestedTarget() {
 
 function deepestChild() {
   var list = document.getElementById('grand-node').querySelectorAll("div");
-
-  var i = 0;
-  while (list[i])
-  {
-    i++;
-  }
-
-  return list[i-1];
+  var length = list.length;
+  return list[length-1];
 }
 
 function increaseRankBy(n) {
